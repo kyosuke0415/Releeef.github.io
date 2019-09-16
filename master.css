@@ -1,0 +1,70 @@
+<@charset "UTF-8";>
+
+body {
+ margin: 0;
+ font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited {
+  color : black;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ここからが適用CSS */
+
+.top-wrapper {
+  width: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+.container {
+  padding: 230px 0 100px 0;
+  text-align: center;
+
+}
+
+.top-logo {
+  color: #64b5f7;
+  letter-spacing: 2px;
+  font-size: 40px;
+
+}
+
+.top-wrapper li {
+  opacity: 0.3;
+  font-size: 18px;
+  letter-spacing: 5px;
+
+
+}
+
+.about {
+  display: inline-block;
+
+}
+
+.about li {
+  float: left;
+  padding-right: 20px;
+
+}
+
+.about a:hover {
+  color: rgb(100, 181, 247);
+}
+
+footer {
+  padding: 180px 0 20px 0 ;
+  color: #64b5f7;
+  text-align: center;
+  font-size: 10px
+}
